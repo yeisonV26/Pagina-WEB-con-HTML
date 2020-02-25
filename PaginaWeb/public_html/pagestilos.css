@@ -1,0 +1,255 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-feb-2020, 17:10:39
+    Author     : Yeison Vela ID: 597335
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f2f2f2;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 70px;
+    
+}
+
+header{
+    background: #0e0d0dad;
+    position: fixed;
+    width: 90%;
+    top: 0;
+    z-index: 2000;
+    
+}
+
+.menu{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .logo{
+    display: inline-block;
+    margin-right: top;
+
+}
+
+.menu .logo img{
+    vertical-align: top;
+    height: 70px;
+}
+
+.menu .btn-menu{
+    display: none;
+    color: white;
+    font-size: 1em;
+}
+
+.menu .logo a:hover{
+    padding: 10px; 
+    width: 65px;
+
+}
+
+.menu .enlaces{
+    display: inline-block;
+    text-align: right;
+}
+
+.menu .enlaces a{
+    color: white;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.menu .enlaces i{
+    margin-right: 5px;
+}
+
+.menu .enlaces a:hover{
+    background: whitesmoke;
+    color: black;
+    
+}
+
+main{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0,75);
+
+}
+
+main article h1{
+    font-weight: normal;
+    margin-bottom: 8px;
+    text-align: center;
+
+}
+main article h3{
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+main article hr{
+    margin-bottom: 1em;
+    height: 2px;
+    background: rgb(167, 36, 36);
+    border: none;
+
+}
+
+main article p{
+    margin-bottom: 2em;
+}
+
+.container{
+    margin: 20px auto;
+    padding: 10px;
+    width: 780px;
+    
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+
+.overlay .active{
+    visibility: visible;
+
+}
+
+
+.popup{
+    background: whitesmoke;
+    box-shadow: rgba(37, 37, 37, 0.274);
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+
+
+}
+
+.popup .btn-cerrar-popup{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: teal;
+    transition: .3s ease all;
+
+}
+
+.popup .btn-cerrar-popup a:hover{
+    color: black;
+
+}
+
+
+
+
+
+
+.redes{
+
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+  }
+  
+  .redes ul{
+    list-style: none;
+  }
+  
+  .redes ul li a{
+    display: inline-block;
+    color: white;
+    background: black;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+  
+  
+  .fa-facebook {
+    background: #4376fd;
+    padding: 15px;
+    width: 50px;
+    
+  }
+  /* Establecemos los colores de cada red social, aprovechando su class */
+   .fa-twitter {
+    background: #00abf0;
+    padding: 15px;
+    width: 50px;
+  }
+  
+  .fa-google-plus-g {
+    background: #d95232;
+    padding: 15px;
+    width: 50px;
+  }
+  
+  .fa-pinterest-p {
+    background: #ae181f;
+    padding: 15px;
+    width: 50px;
+  }
+  
+  .fa-instagram {
+    background: #792174;
+    padding: 15px;
+    width: 50px;
+  }
+  
+  .fa-address-card{
+  background: #5ad738;
+  padding: 15px;
+    width: 50px;
+  }
+
+  .fa-mail-bulk{
+    background: #ffffff;
+    padding: 15px;
+    width: 50px;
+    
+
+  }
+  
+  .redes ul li a:hover {
+    background: white; /* Cambiamos el fondo cuando el usuario pase el mouse */
+    padding: 10px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+    width: 65px;
+  }

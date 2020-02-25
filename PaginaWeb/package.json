@@ -1,0 +1,8 @@
+{
+    "name": "PaginaWeb",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "BOG-A410-E-012",
+    "contributors": [],
+    "dependencies": {}
+}
